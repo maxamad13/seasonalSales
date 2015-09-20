@@ -13,4 +13,17 @@ requirejs.config({
 
 });
 
-require(['jquery','hbs','bootstrap', 'lodash'], function($, Handlebars, bootstrap, _) {} );
+require(['jquery','hbs','bootstrap', 'lodash', 'getCategories', 'getProducts', 'populateProducts', 'populateCategories', 'discount'], function($, Handlebars, bootstrap, _, getCategories, getProducts, popProducts, popCategories, discount) {
+
+		//Jim, you need to change the path of the template call in "populateProducts" and in "populateCategories" to link up with the HBS template you wrote, then these calls will populate the full template.
+		getProducts.getData(popProducts.populate);
+		getCategories.getData(popCategories.populate);
+
+
+
+
+		//$(document).on('change','#selector', discount.discount());
+
+
+
+});  // end require
