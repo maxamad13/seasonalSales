@@ -12,6 +12,6 @@ define(['jquery'], function($) {
 
         }  //end discount
 
-		}//end return statement
+		}; //end return statement
 
 }); //end define statement
