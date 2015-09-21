@@ -16,6 +16,6 @@ define(['jquery'], function($) {
 
 		 } //end getDeparments
 
-		}//end return statement
+		}; //end return statement
 
 }); //end define statement

@@ -14,6 +14,6 @@ define(['jquery'], function($) {
 
 			} //end populate
 
-		}//end return statement
+		}; //end return statement
 
 }); //end define statement

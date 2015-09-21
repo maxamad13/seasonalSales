@@ -4,7 +4,7 @@ define(['jquery', 'getCategories'], function($, getCategories) {
 
 			populate: function(products){
 
-				console.log('Populate products called using ' + products)
+				console.log('Populate products called using ' + products);
 
 				//filter function - iterates over products and adds a new key "department" based on the category id
 				function filterProducts(categories){
@@ -16,16 +16,16 @@ define(['jquery', 'getCategories'], function($, getCategories) {
 							// console.log(cateId);
 							categories.categories.forEach(function(ele){
 
-									if (cateId === ele["id"]) {
-										console.log(ele["name"])
-										element["department"] = ele["name"];
+									if (cateId === ele.id) {
+										console.log(ele.name);
+										element.department = ele.name;
 									}
 
-								})// end categories for each
+								}); // end categories for each
 
-						}) //end products for each
+						}); //end products for each
 
-				}; //end getDepartments
+				} //end getDepartments
 
 				getCategories.getData(filterProducts);
 
@@ -36,6 +36,6 @@ define(['jquery', 'getCategories'], function($, getCategories) {
 
 			} //end populate
 
-		}//end return statement
+		}; //end return statement
 
 }); //end define statement
