@@ -22,7 +22,7 @@ require(['jquery','hbs','bootstrap', 'lodash', 'getCategories', 'getProducts', '
 
 
 
-		//$(document).on('change','#selector', discount.discount());
+		$(document).on("change", getProducts.getData(discount.discount));
 
 
 

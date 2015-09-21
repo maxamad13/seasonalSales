@@ -1,9 +1,9 @@
-	<label for="categories">Categories:</label>
-	<input id='categories' list="categories_list" name="artist"  value="All" class="form-control">
-    <datalist id="categories_list">
-			<option	value="All">
+	Categories:
+	<select id='categories' class="form-control">
+    	<option	value="All">All</option>
 
 			{{#each categories}}
-				<option value={{season_discount}} discount={{discount}}>
+				<option value={{season_discount}} discount={{discount}}>{{season_discount}}</option>
 			{{/each}}
-    </datalist>
+
+	</select>
