@@ -5,7 +5,7 @@ define(['jquery'], function($) {
 			populate: function(categories){
 
 
-				require(['hbs!../testTemplates/testCategories'], function(template) {
+				require(['hbs!../templates/categories'], function(template) {
         	$('#content').append(template(categories));
 
 

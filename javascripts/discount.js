@@ -13,10 +13,10 @@ define(['jquery'], function($) {
 
 				productData.products.forEach(function(element){
 
-					if (element['category_id'] == idToCheck) {
+					if (element.category_id == idToCheck) {
 
 
-						element['price'] = (element['price'] * (1 - seasonalDis)).toFixed(2);
+						element.price = (element.price * (1 - seasonalDis)).toFixed(2);
 
 
 
@@ -26,7 +26,7 @@ define(['jquery'], function($) {
 				});
 
 
-				require(['hbs!../testTemplates/prices'], function(template) {
+				require(['hbs!../templates/prices'], function(template) {
         	$('#prices').html(template(productData));
 
         });

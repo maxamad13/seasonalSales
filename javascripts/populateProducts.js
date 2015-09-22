@@ -29,7 +29,7 @@ define(['jquery', 'getCategories'], function($, getCategories) {
 
 				getCategories.getData(filterProducts);
 
-				require(['hbs!../testTemplates/testProducts'], function(template) {
+				require(['hbs!../templates/products'], function(template) {
         	$('#content').append(template(products));
 
         });
