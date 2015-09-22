@@ -5,7 +5,8 @@ define(['jquery'], function($) {
 			getData: function(callback){
 
 			$.ajax({
-		  	url: "../jsons/categories.json",
+				// url: "../jsons/categories.json",
+		  	url: "./jsons/categories.json",
 		  	method: "GET",
 		  	context: document.body
 		  }).done(function(data){
