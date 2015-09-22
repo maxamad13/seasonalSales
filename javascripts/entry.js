@@ -22,7 +22,13 @@ require(['jquery','hbs','bootstrap', 'lodash', 'getCategories', 'getProducts', '
 
 
 
-		$(document).on("change", "#categories", getProducts.getData(discount.discount));
+		// $(document).on("change", "#categories", function() {
+		// 	console.log($(this).val());
+		// });
+		$(document).on("change", "#categories", function() {
+			var ref = discount.discount;
+			getProducts.getData(ref);
+		});
 
 
 

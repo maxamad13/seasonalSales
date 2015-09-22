@@ -1,9 +1,19 @@
 Products
 <br>
+<ul id='names'>
 {{#each products}}
-
-{{name}}<br>
-{{price}}<br>
-{{department}}<br>
-
+	<li>{{name}}</li>
 {{/each}}
+</ul>
+
+<ul id='prices'>
+{{#each products}}
+	<li>{{price}}</li>
+{{/each}}
+</ul>
+
+<ul id='prices'>
+{{#each products}}
+	<li>{{department}}</li>
+{{/each}}
+</ul>
