@@ -1,3 +1,22 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: red;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin: auto; }
 
+#content {
+  margin-left: 200px; }
+
+ul, li {
+  list-style: none; }
+
+header {
+  background: url("http://images.hartstrings.com/images/gallery_departments/Top%20Banner_Sale_All_Brands.jpg");
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 800px;
+  margin: auto; }
 
 /*# sourceMappingURL=main.css.map */

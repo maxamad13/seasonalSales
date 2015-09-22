@@ -1,0 +1,40 @@
+$himage:"http://images.hartstrings.com/images/gallery_departments/Top%20Banner_Sale_All_Brands.jpg";
+$bimage:"http://www.weusecoupons.com/wp-content/uploads/2011/10/Clothes-Line-Sale.png";
+$bcolor: #A38566;
+
+$font-stack:    Helvetica, sans-serif,;
+$primary-color: #333;
+
+
+body {
+	font:100% $font-stack;
+	font-size: 1.5rem;
+	color:red;
+	
+	background-repeat: no-repeat;
+	;
+	margin: auto;
+
+	
+	margin: auto;
+
+}
+
+#content {
+	margin-left: 200px;
+	
+}
+
+ul,li {
+	list-style: none;
+}
+header {
+		background: url($himage);
+
+		background-repeat: no-repeat;
+		height: 200px;
+		width: 800px;
+		margin: auto;
+			
+}
+
