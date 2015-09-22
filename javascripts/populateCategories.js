@@ -6,7 +6,7 @@ define(['jquery'], function($) {
 
 
 				require(['hbs!../templates/categories'], function(template) {
-        	$('#content').append(template(categories));
+        	$('#cate').append(template(categories));
 
 
 
