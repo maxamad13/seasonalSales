@@ -8,7 +8,8 @@ define(['jquery'], function($) {
 				//
 				// NOTE: The url path starts from the directory where
 				//       index.html is located.
-				//		  	url: "./jsons/products.json",
+				//
+				url: "./jsons/products.json",
 		  	method: "GET",
 		  	context: document.body
 		  }).done(function(data){
