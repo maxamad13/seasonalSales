@@ -5,6 +5,10 @@ define(['jquery'], function($) {
 			getData: function(callback){
 
 			$.ajax({
+				//
+				// NOTE: The url path starts from the directory where
+				//       index.html is located.
+				//
 		  	url: "./jsons/categories.json",
 		  	method: "GET",
 		  	context: document.body
