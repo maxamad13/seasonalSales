@@ -13,11 +13,12 @@ define(['jquery'], function($) {
 
 				productData.products.forEach(function(element){
 
+					element.discounted = "notDiscounted";
 					if (element.category_id == idToCheck) {
 
 
 						element.price = (element.price * (1 - seasonalDis)).toFixed(2);
-
+						element.discounted = "discounted";
 
 
 					}
@@ -40,3 +41,10 @@ define(['jquery'], function($) {
 		}; //end return statement
 
 }); //end define statement
+
+
+
+//           __ __    _____
+//   /\        T     |____ |
+//  /__\       |     |
+// /    \   |__|     |

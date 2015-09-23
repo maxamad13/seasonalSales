@@ -30,7 +30,7 @@ require(['jquery','hbs','bootstrap', 'lodash', 'getCategories', 'getProducts', '
 			getProducts.getData(ref);
 		});
 
-		//Bubba, bubba
+		//Bubba
 
 
 });  // end require

@@ -20,6 +20,9 @@ ul, li {
   border-bottom: solid 1px;
   border-color: black; }
 
+li.discounted {
+  color: black; }
+
 header {
   background: url("http://images.hartstrings.com/images/gallery_departments/Top%20Banner_Sale_All_Brands.jpg");
   background-repeat: no-repeat;

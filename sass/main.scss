@@ -19,9 +19,9 @@ body {
 #content {
 	max-width: 900px;
 	margin-left: 200px;
-	border: block;	
+	border: block;
 
-	
+
 }
 #cate {
 	width: 500px;
@@ -32,7 +32,11 @@ ul,li {
 	list-style: none;
 	border-bottom: solid 1px;
 	border-color: black;
-		
+
+}
+
+li.discounted {
+	color: black;
 }
 
 
@@ -43,6 +47,6 @@ header {
 		height: 200px;
 		width: 800px;
 		margin: auto;
-			
+
 }
 
